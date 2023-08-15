@@ -12,6 +12,6 @@ export class HeaderService {
 
   constructor() { }
 
-  titulo = signal("Titulo"); //variable normal, signal se ocupa para permitir cambios dinamicos en la variable
+  titulo = signal(""); //variable normal, signal se ocupa para permitir cambios dinamicos en la variable
   extendido: WritableSignal<boolean> = signal(false); //variable para extender el header
 }
