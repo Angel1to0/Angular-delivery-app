@@ -1,0 +1,16 @@
+@use "./../../../../assets/styles/variables.scss";
+
+header{
+    height: 200px;
+    background-color: variables.$color-principal;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
