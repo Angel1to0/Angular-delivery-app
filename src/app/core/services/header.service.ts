@@ -3,7 +3,7 @@
  * que tenga que ver con el header, y asi comunicar cada componente con el header
  */
 
-import { Injectable } from '@angular/core';
+import { Injectable, WritableSignal, signal } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -12,5 +12,6 @@ export class HeaderService {
 
   constructor() { }
 
-  titulo:string = "Titulo"; //variable normal
+  titulo = signal("Titulo"); //variable normal, signal se ocupa para permitir cambios dinamicos en la variable
+  extendido: WritableSignal<boolean> = signal(false); //variable para extender el header
 }
