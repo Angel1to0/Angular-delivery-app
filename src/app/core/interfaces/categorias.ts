@@ -1,6 +1,6 @@
 import { Producto } from "./productos";
 
-export interface Categorias{
+export interface Categoria{
     id:number,
     nombre: string,
     fotoUrl:string,
