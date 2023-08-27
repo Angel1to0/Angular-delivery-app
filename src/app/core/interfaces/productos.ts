@@ -5,5 +5,5 @@ export interface Producto{
     esVegano:boolean,
     esCeliaco: boolean,
     ingredientes:string,
-    foroUrl:string;
+    fotoUrl:string;
 }
